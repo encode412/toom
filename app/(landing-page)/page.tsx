@@ -7,6 +7,12 @@ import FourthSection from "./_components/fourth-section";
 import FifthSection from "./_components/fifth-section";
 import SixthSection from "./_components/sixth-section";
 import SeventhSection from "./_components/seventh-section";
+import EightSection from "./_components/eight-section";
+import NinthSection from "./_components/ninth-section";
+import TenthSection from "./_components/tenth-section";
+import BottomCard from "@/components/ui/bottom-card";
+import BottomSection from "@/components/ui/bottom-section";
+import Footer from "@/components/ui/footer";
 
 const LandingPage = () => {
   return (
@@ -20,6 +26,12 @@ const LandingPage = () => {
       <FifthSection />
       <SixthSection />
       <SeventhSection />
+      <EightSection />
+      <NinthSection />
+      <TenthSection />
+      <BottomCard />
+      <BottomSection />
+      <Footer />
     </div>
   );
 };
