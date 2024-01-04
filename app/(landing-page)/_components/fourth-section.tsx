@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { CheckCircle2, MousePointerSquareDashed } from "lucide-react";
+import { CheckCircle2, MousePointerSquareDashed, PenTool } from "lucide-react";
 
 const FourthSection = () => {
   return (
@@ -12,7 +12,7 @@ const FourthSection = () => {
         <div className="md:w-2/5 bg-[#b2b3f1] rounded-[60px] md:p-20">
           <Image
             alt="image"
-            src={"/images/undraw-1.svg"}
+            src={"/images/embed.svg"}
             width={1920}
             height={1080}
             className="object-cover rounded-md w-full p-10"
@@ -29,7 +29,7 @@ const FourthSection = () => {
               </div>
 
               <div className="md:text-xl text-[#6c6684] leading-8 md:leading-10 font-light pt-6">
-                From Google Workspace to Slack, Toom videos seamlessly
+                From Google Workspace to Slack, Llum videos seamlessly
                 integrates with hundreds of tools you use everyday
               </div>
               <Button className="md:text-lg mt-6 rounded-[40px] text-[#4b42ad] font-medium md:py-6 bg-[#eff0ff] hover:scale-110 hover:shadow-indigo-500 transition-all duration-300 shadow-md">
@@ -64,7 +64,7 @@ const FourthSection = () => {
           <div className="mb-10 md:mb-0 order-1 mt-10 p-10 md:items-center bg-[#eff0ff] rounded-[60px]">
             <Image
               alt="image"
-              src={"/images/undraw-1.svg"}
+              src={"/images/interactive.svg"}
               width={1920}
               height={1080}
               className="object-cover rounded-md w-full p-10"
@@ -76,7 +76,7 @@ const FourthSection = () => {
         <div className="md:w-2/5 bg-[#b2b3f1] rounded-[60px] md:p-20">
           <Image
             alt="image"
-            src={"/images/undraw-1.svg"}
+            src={"/images/personal.svg"}
             width={1920}
             height={1080}
             className="object-cover rounded-md w-full p-10"
@@ -85,14 +85,14 @@ const FourthSection = () => {
         <div className="pt-20 md:ml-20 md:w-1/3">
           <div className="flex gap-6">
             <div className="hidden bg-[#d1d1f7] w-14 h-14 rounded-full md:flex items-center justify-center">
-              <MousePointerSquareDashed className="text-6xl text-[#2b1c50]" />
+              <PenTool className="text-6xl text-[#2b1c50]" />
             </div>
             <div className="w-full md:w-96">
               <div className="text-[#111019] font-medium leading-normal md:text-4xl text-2xl">
                 Add a personal touch to your videos
               </div>
               <div className="md:text-xl text-6c6684 leading-8 md:leading-10 font-light pt-16">
-                From Google Workspace to Slack, Toom videos seamlessly
+                From Google Workspace to Slack, Llum videos seamlessly
                 integrates with hundreds of tools you use everyday
               </div>
               <Button className="md:text-lg mt-6 rounded-[40px] text-[#4b42ad] font-medium md:py-6 bg-[#eff0ff] hover:scale-110 hover:shadow-indigo-500 transition-all duration-300 shadow-md">

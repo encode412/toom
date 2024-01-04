@@ -21,7 +21,7 @@ const SecondSection = () => {
             <div className="text-white flex space-y-10 md:w-1/2">
               <div className="md:space-y-10 flex flex-col px-4 py-10">
                 <div className="text-2xl md:text-3xl">NEW!</div>
-                <div className="text-5xl md:text-7xl pb-4 md:pb-0">Toom AI</div>
+                <div className="text-5xl md:text-7xl pb-4 md:pb-0">Llum AI</div>
                 <div className="text-xl md:text-3xl w-5/6">
                   Record better, faster video messages, without lifting a finger
                 </div>
@@ -59,7 +59,9 @@ const SecondSection = () => {
                     </div>
                   </div>
                 </div>
-                <Button className="text-md font-light w-40 rounded-[40px] border-4 border-indigo-400/90 py-6 bg-[#565add] hover:scale-110 hover:shadow-indigo-300 transition-all duration-300 shadow-md">Get Toom AI</Button>
+                <Button className="text-md font-light w-40 rounded-[40px] border-4 border-indigo-400/90 py-6 bg-[#565add] hover:scale-110 hover:shadow-indigo-300 transition-all duration-300 shadow-md">
+                  Get Llum AI
+                </Button>
               </div>
             </div>
           </div>

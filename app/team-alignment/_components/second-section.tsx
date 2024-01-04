@@ -14,7 +14,7 @@ const SecondSection = () => {
                         Keep your team engaged while collaboring asynchrously
                       </div>
                       <div className="pt-4 text-sm md:text-md text-[#3d2e7c] leading-6 md:leading-10 font-light md:w-4/5">
-                        Using Toom, you can ask questions, share ideas, and
+                        Using Llum, you can ask questions, share ideas, and
                         exchange knowledge without time zones or busy calenders
                         getting in the way
                       </div>
@@ -25,7 +25,7 @@ const SecondSection = () => {
                       </div>
                       <div className="text-sm md:text-md text-[#3d2e7c] pt-1 leading-6 md:leading-10 font-light md:w-4/5">
                         Speak to your vision while sharing your design as you
-                        record your screen, camera or both with Toom
+                        record your screen, camera or both with Llum
                       </div>
                     </div>
 
@@ -44,7 +44,7 @@ const SecondSection = () => {
                         Send your video with a link
                       </div>
                       <div className="text-sm md:text-md text-[#3d2e7c] pt-1 leading-6 md:leading-10 font-light md:w-4/5">
-                        Use Toom's instantly-generated links to share your video
+                        Use Llum's instantly-generated links to share your video
                         in Slack, Figma, Sketch, and anywhere else your team
                         works
                       </div>
@@ -55,7 +55,7 @@ const SecondSection = () => {
               <div className="md:w-1/2 mb-10 md:mb-0 order-1 md:p-0 mt-10">
                 <Image
                   alt="image"
-                  src={"/images/undraw-1.svg"}
+                  src={"/images/team.svg"}
                   width={1920}
                   height={1080}
                   className="object-cover md:rounded-[60px] rounded-[40px] w-full p-10"

@@ -85,9 +85,9 @@ const items: MenuItem[] = [
     menu: "for business",
     options: [
       {
-        label: "Toom AI",
+        label: "Llum AI",
         emoji: <Sparkles className="text-indigo-500" />,
-        href: "/toom-ai",
+        href: "/Llum-ai",
       },
       {
         label: "Enterprise",
@@ -95,7 +95,7 @@ const items: MenuItem[] = [
         href: "/enterprise",
       },
       {
-        label: "Toom HQ",
+        label: "Llum HQ",
         emoji: <Home className="text-blue-500" />,
         href: "/",
       },
@@ -219,15 +219,14 @@ export function NavigationMenuBar() {
     );
   };
   return (
-  <div className="hidden text-md font-light space-x-4 w-full items-center xl:flex h-24">
-    {items.map((item, index) => (
+    <div className="hidden text-md font-light space-x-4 w-full items-center xl:flex h-24">
+      {items.map((item, index) => (
         <React.Fragment key={index}>
-            <div className="cursor-pointer hidden xl:block">
-                {renderMenu(item)}
-            </div>
+          <div className="cursor-pointer hidden xl:block">
+            {renderMenu(item)}
+          </div>
         </React.Fragment>
-    ))}
-
-  </div>
+      ))}
+    </div>
   );
 }

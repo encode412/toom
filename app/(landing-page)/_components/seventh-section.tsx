@@ -61,7 +61,7 @@ const SeventhSection = () => {
             </div>
           </div>
         </div>
-        <div className="underline pt-20 font-medium">See all features</div>
+        <div className="underline-offset-4 underline pt-20 font-medium">See all features</div>
 
       </div>
     </div>

@@ -16,7 +16,7 @@ const FirstSection = () => {
         <div className="flex gap-4 py-4 xl:pt-10">
           <Link href="/free">
             <Button className="xl:text-3xl text-xl md:justify-center md:flex font-light rounded-[60px] border-8 border-indigo-400/90 py-9 px-10 xl:py-12 xl:px-24 bg-[#565add] hover:scale-110 transition-all duration-300 shadow-md hover:shadow-indigo-300">
-              Get Toom for Free
+              Get Llum for Free
             </Button>
           </Link>
         </div>

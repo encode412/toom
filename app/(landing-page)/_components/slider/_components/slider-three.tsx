@@ -22,7 +22,7 @@ const SliderThree = () => {
           alt=""
           width={100}
           height={100}
-          className="w-28 h-28"
+          className="w-20 h-20"
         />
       </Slider.Slide>
       <Slider.Slide>
@@ -31,7 +31,7 @@ const SliderThree = () => {
           alt=""
           width={100}
           height={100}
-          className="w-28 h-28"
+          className="w-20 h-20"
         />
       </Slider.Slide>
       <Slider.Slide>
@@ -40,7 +40,7 @@ const SliderThree = () => {
           alt=""
           width={100}
           height={100}
-          className="w-28 h-28"
+          className="w-20 h-20"
         />
       </Slider.Slide>
       <Slider.Slide>
@@ -49,7 +49,7 @@ const SliderThree = () => {
           alt="logo"
           width={100}
           height={100}
-          className="w-28 h-28"
+          className="w-20 h-20"
         />
       </Slider.Slide>
       <Slider.Slide>
@@ -58,7 +58,7 @@ const SliderThree = () => {
           alt=""
           width={100}
           height={100}
-          className="w-28 h-28"
+          className="w-20 h-20"
         />
       </Slider.Slide>
       <Slider.Slide>
@@ -67,7 +67,7 @@ const SliderThree = () => {
           alt="logo"
           width={100}
           height={100}
-          className="w-28 h-28"
+          className="w-20 h-20"
         />
       </Slider.Slide>
       <Slider.Slide>
@@ -76,7 +76,7 @@ const SliderThree = () => {
           alt=""
           width={100}
           height={100}
-          className="w-28 h-28"
+          className="w-20 h-20"
         />
       </Slider.Slide>
       <Slider.Slide>
@@ -85,7 +85,7 @@ const SliderThree = () => {
           alt="logo"
           width={100}
           height={100}
-          className="w-28 h-28"
+          className="w-20 h-20"
         />
       </Slider.Slide>
       <Slider.Slide>
@@ -94,7 +94,7 @@ const SliderThree = () => {
           alt="logo"
           width={100}
           height={100}
-          className="w-28 h-28"
+          className="w-20 h-20"
         />
       </Slider.Slide>
       <Slider.Slide>
@@ -103,7 +103,7 @@ const SliderThree = () => {
           alt="logo"
           width={100}
           height={100}
-          className="w-28 h-28"
+          className="w-20 h-20"
         />
       </Slider.Slide>
       <Slider.Slide>
@@ -112,7 +112,7 @@ const SliderThree = () => {
           alt="logo"
           width={100}
           height={100}
-          className="w-28 h-28"
+          className="w-20 h-20"
         />
       </Slider.Slide>
       <Slider.Slide>
@@ -121,7 +121,7 @@ const SliderThree = () => {
           alt="logo"
           width={100}
           height={100}
-          className="w-28 h-28"
+          className="w-20 h-20"
         />
       </Slider.Slide>
       <Slider.Slide>
@@ -130,7 +130,7 @@ const SliderThree = () => {
           alt="logo"
           width={100}
           height={100}
-          className="w-28 h-28"
+          className="w-20 h-20"
         />
       </Slider.Slide>
       </Slider>

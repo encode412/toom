@@ -8,9 +8,9 @@ const SixthSection = () => {
         Video messaging for all use cases
       </div>
       <div className="md:flex items-center justify-center md:space-x-20 space-y-10 md:space-y-0">
-        <div className="bg-[#e8f5e3] rounded-[40px] md:w-80 p-10 hover:scale-105 hover:shadow-xl">
+        <div className="bg-[#e8f5e3] rounded-[40px] md:w-80 p-10 hover:scale-105 hover:drop-shadow-2xl hover:shadow-indigo-500 transition-all ease-in">
           <Image
-            src={"images/undraw-1.svg"}
+            src={"images/sales.svg"}
             alt="image"
             height={1080}
             width={1920}
@@ -25,9 +25,9 @@ const SixthSection = () => {
           </div>
         </div>
 
-        <div className="bg-[#f8edfb] rounded-[40px] md:w-80 p-10 hover:scale-105 hover:shadow-xl">
+        <div className="bg-[#f8edfb] rounded-[40px] md:w-80 p-10 hover:scale-105 hover:drop-shadow-2xl hover:shadow-indigo-500 transition-all ease-in">
           <Image
-            src={"images/undraw-1.svg"}
+            src={"images/engineering.svg"}
             alt="image"
             height={1080}
             width={1920}
@@ -41,9 +41,9 @@ const SixthSection = () => {
           </div>
         </div>
 
-        <div className="bg-[#e3f3ff] rounded-[40px] md:w-80 p-10 hover:scale-105 hover:shadow-xl">
+        <div className="bg-[#e3f3ff] rounded-[40px] md:w-80 p-10 hover:scale-105 hover:drop-shadow-2xl hover:shadow-indigo-500 transition-all ease-in">
           <Image
-            src={"images/undraw-1.svg"}
+            src={"images/customer.svg"}
             alt="image"
             height={1080}
             width={1920}
@@ -58,9 +58,9 @@ const SixthSection = () => {
           </div>
         </div>
 
-        <div className="bg-[#eff0ff] rounded-[40px] md:w-80 p-10 hover:scale-105 hover:shadow-xl">
+        <div className="bg-[#eff0ff] rounded-[40px] md:w-80 p-10 hover:scale-105 hover:drop-shadow-2xl hover:shadow-indigo-500 transition-all ease-in">
           <Image
-            src={"images/undraw-1.svg"}
+            src={"images/design.svg"}
             alt="image"
             height={1080}
             width={1920}

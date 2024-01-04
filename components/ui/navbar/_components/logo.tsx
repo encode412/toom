@@ -6,11 +6,11 @@ const Logo = () => {
     <div>
       <Link href={"/"}>
         <Image
-          src="/logos/logoipsum-236.svg"
+          src="/logos/default.png"
           alt="logo"
           width={150}
           height={150}
-          className="w-40"
+          className="w-60"
         />
       </Link>
     </div>

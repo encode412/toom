@@ -120,14 +120,14 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({ onClose }) => {
           <AccordionTrigger>For Business</AccordionTrigger>
           <AccordionContent>
             <Link
-              href={"/toom-ai"}
+              href={"/Llum-ai"}
               className="flex pt-10"
               onClick={handleLinkClick}
             >
               <div>
                 <Sparkles className="h-6 w-6 mr-4 text-orange-400" />
               </div>
-              <div>Toom AI</div>
+              <div>Llum AI</div>
             </Link>
             <Link
               href={"/enterprise"}
@@ -143,7 +143,7 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({ onClose }) => {
               <div>
                 <Home className="h-6 w-6 mr-4 text-indigo-400" />
               </div>
-              <div>Toom HQ</div>
+              <div>Llum HQ</div>
             </Link>
             <Link
               href={"/design"}
@@ -281,11 +281,15 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({ onClose }) => {
       </Accordion>
       <div className="md:pt-32">
         <div className="flex items-center justify-center space-x-4">
-          <Link href={'/sign-in'}>
-            <Button className="text-[#4b42ad] text-sm font-light bg-[#eff0ff] p-6 rounded-[40px] hover:scale-110 transition-all duration-300 shadow-md hover:shadow-indigo-300">Sign in to Toom</Button>
+          <Link href={"/sign-in"}>
+            <Button className="text-[#4b42ad] text-sm font-light bg-[#eff0ff] p-6 rounded-[40px] hover:scale-110 transition-all duration-300 shadow-md hover:shadow-indigo-300">
+              Sign in to Llum
+            </Button>
           </Link>
-          <Link href={'/sign-in'}>
-            <Button className="text-sm font-light border-4 border-indigo-400/90 py-6 bg-[#565add] rounded-[40px] hover:scale-110 transition-all duration-300 shadow-md hover:shadow-indigo-300">Try Toom for Free</Button>
+          <Link href={"/sign-in"}>
+            <Button className="text-sm font-light border-4 border-indigo-400/90 py-6 bg-[#565add] rounded-[40px] hover:scale-110 transition-all duration-300 shadow-md hover:shadow-indigo-300">
+              Try Llum for Free
+            </Button>
           </Link>
         </div>
       </div>

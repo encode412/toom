@@ -27,9 +27,9 @@ const ThirdSection = () => {
                       Lightning fast screen recording
                     </div>
                     <div className="text-lg text-[#3d2e7c] md:leading-10 font-light w-5/6 py-4">
-                      Easily record your screen and camera. Record on any device
-                      using Toom&apos;s Chrome extension, desktop app or mobile
-                      app
+                      Easily <span className='underline-offset-[5px] underline hover:no-underline cursor-pointer'>record your screen </span>and camera. Record on any device
+                      using Llum&apos;s <span className='underline-offset-[5px] underline hover:no-underline cursor-pointer'>Chrome extension,</span> <span className='underline-offset-[5px] underline hover:no-underline cursor-pointer'>desktop app </span>or  
+                       {' '}<span className='underline-offset-[5px] underline hover:no-underline cursor-pointer'>mobile app.</span>
                     </div>
                     <Button className="md:text-lg font-light mt-6 rounded-[40px] border-4 border-indigo-400/90 py-6 bg-[#565add] hover:scale-110 hover:shadow-indigo-500 transition-all duration-300 shadow-md">
                       Download Now
@@ -40,7 +40,7 @@ const ThirdSection = () => {
               <div className="md:w-1/2 mb-10 md:mb-0 order-1 p-10 md:p-0">
                 <Image
                   alt="image"
-                  src={"/images/undraw-1.svg"}
+                  src={"/images/record.svg"}
                   width={1920}
                   height={1080}
                   className="object-cover rounded-md w-full p-10"
